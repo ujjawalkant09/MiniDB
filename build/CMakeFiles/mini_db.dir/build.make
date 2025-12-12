@@ -97,19 +97,83 @@ CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/storage/disk_manager.cpp -o CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.s
 
+CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o: CMakeFiles/mini_db.dir/flags.make
+CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o: /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/lru_replacer.cpp
+CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o: CMakeFiles/mini_db.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o -MF CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o.d -o CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o -c /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/lru_replacer.cpp
+
+CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/lru_replacer.cpp > CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.i
+
+CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/lru_replacer.cpp -o CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.s
+
+CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o: CMakeFiles/mini_db.dir/flags.make
+CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o: /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/buffer_pool_manager.cpp
+CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o: CMakeFiles/mini_db.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o -MF CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o.d -o CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o -c /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/buffer_pool_manager.cpp
+
+CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/buffer_pool_manager.cpp > CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.i
+
+CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/buffer/buffer_pool_manager.cpp -o CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.s
+
+CMakeFiles/mini_db.dir/src/table/table_page.cpp.o: CMakeFiles/mini_db.dir/flags.make
+CMakeFiles/mini_db.dir/src/table/table_page.cpp.o: /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_page.cpp
+CMakeFiles/mini_db.dir/src/table/table_page.cpp.o: CMakeFiles/mini_db.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mini_db.dir/src/table/table_page.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_db.dir/src/table/table_page.cpp.o -MF CMakeFiles/mini_db.dir/src/table/table_page.cpp.o.d -o CMakeFiles/mini_db.dir/src/table/table_page.cpp.o -c /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_page.cpp
+
+CMakeFiles/mini_db.dir/src/table/table_page.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_db.dir/src/table/table_page.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_page.cpp > CMakeFiles/mini_db.dir/src/table/table_page.cpp.i
+
+CMakeFiles/mini_db.dir/src/table/table_page.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_db.dir/src/table/table_page.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_page.cpp -o CMakeFiles/mini_db.dir/src/table/table_page.cpp.s
+
+CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o: CMakeFiles/mini_db.dir/flags.make
+CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o: /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_heap.cpp
+CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o: CMakeFiles/mini_db.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o -MF CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o.d -o CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o -c /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_heap.cpp
+
+CMakeFiles/mini_db.dir/src/table/table_heap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/mini_db.dir/src/table/table_heap.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_heap.cpp > CMakeFiles/mini_db.dir/src/table/table_heap.cpp.i
+
+CMakeFiles/mini_db.dir/src/table/table_heap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/mini_db.dir/src/table/table_heap.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/src/table/table_heap.cpp -o CMakeFiles/mini_db.dir/src/table/table_heap.cpp.s
+
 # Object files for target mini_db
 mini_db_OBJECTS = \
 "CMakeFiles/mini_db.dir/src/main.cpp.o" \
-"CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.o"
+"CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.o" \
+"CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o" \
+"CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o" \
+"CMakeFiles/mini_db.dir/src/table/table_page.cpp.o" \
+"CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o"
 
 # External object files for target mini_db
 mini_db_EXTERNAL_OBJECTS =
 
 mini_db: CMakeFiles/mini_db.dir/src/main.cpp.o
 mini_db: CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.o
+mini_db: CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o
+mini_db: CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o
+mini_db: CMakeFiles/mini_db.dir/src/table/table_page.cpp.o
+mini_db: CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o
 mini_db: CMakeFiles/mini_db.dir/build.make
 mini_db: CMakeFiles/mini_db.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable mini_db"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/iamujjawal/Documents/CPP_PROJECTS/MiniDB/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable mini_db"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mini_db.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

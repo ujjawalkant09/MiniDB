@@ -129,6 +129,54 @@ mini_db/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/build
 .PHONY : mini_db/fast
 
+src/buffer/buffer_pool_manager.o: src/buffer/buffer_pool_manager.cpp.o
+.PHONY : src/buffer/buffer_pool_manager.o
+
+# target to build an object file
+src/buffer/buffer_pool_manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.o
+.PHONY : src/buffer/buffer_pool_manager.cpp.o
+
+src/buffer/buffer_pool_manager.i: src/buffer/buffer_pool_manager.cpp.i
+.PHONY : src/buffer/buffer_pool_manager.i
+
+# target to preprocess a source file
+src/buffer/buffer_pool_manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.i
+.PHONY : src/buffer/buffer_pool_manager.cpp.i
+
+src/buffer/buffer_pool_manager.s: src/buffer/buffer_pool_manager.cpp.s
+.PHONY : src/buffer/buffer_pool_manager.s
+
+# target to generate assembly for a file
+src/buffer/buffer_pool_manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/buffer/buffer_pool_manager.cpp.s
+.PHONY : src/buffer/buffer_pool_manager.cpp.s
+
+src/buffer/lru_replacer.o: src/buffer/lru_replacer.cpp.o
+.PHONY : src/buffer/lru_replacer.o
+
+# target to build an object file
+src/buffer/lru_replacer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.o
+.PHONY : src/buffer/lru_replacer.cpp.o
+
+src/buffer/lru_replacer.i: src/buffer/lru_replacer.cpp.i
+.PHONY : src/buffer/lru_replacer.i
+
+# target to preprocess a source file
+src/buffer/lru_replacer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.i
+.PHONY : src/buffer/lru_replacer.cpp.i
+
+src/buffer/lru_replacer.s: src/buffer/lru_replacer.cpp.s
+.PHONY : src/buffer/lru_replacer.s
+
+# target to generate assembly for a file
+src/buffer/lru_replacer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/buffer/lru_replacer.cpp.s
+.PHONY : src/buffer/lru_replacer.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,6 +225,54 @@ src/storage/disk_manager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/storage/disk_manager.cpp.s
 .PHONY : src/storage/disk_manager.cpp.s
 
+src/table/table_heap.o: src/table/table_heap.cpp.o
+.PHONY : src/table/table_heap.o
+
+# target to build an object file
+src/table/table_heap.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/table/table_heap.cpp.o
+.PHONY : src/table/table_heap.cpp.o
+
+src/table/table_heap.i: src/table/table_heap.cpp.i
+.PHONY : src/table/table_heap.i
+
+# target to preprocess a source file
+src/table/table_heap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/table/table_heap.cpp.i
+.PHONY : src/table/table_heap.cpp.i
+
+src/table/table_heap.s: src/table/table_heap.cpp.s
+.PHONY : src/table/table_heap.s
+
+# target to generate assembly for a file
+src/table/table_heap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/table/table_heap.cpp.s
+.PHONY : src/table/table_heap.cpp.s
+
+src/table/table_page.o: src/table/table_page.cpp.o
+.PHONY : src/table/table_page.o
+
+# target to build an object file
+src/table/table_page.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/table/table_page.cpp.o
+.PHONY : src/table/table_page.cpp.o
+
+src/table/table_page.i: src/table/table_page.cpp.i
+.PHONY : src/table/table_page.i
+
+# target to preprocess a source file
+src/table/table_page.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/table/table_page.cpp.i
+.PHONY : src/table/table_page.cpp.i
+
+src/table/table_page.s: src/table/table_page.cpp.s
+.PHONY : src/table/table_page.s
+
+# target to generate assembly for a file
+src/table/table_page.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mini_db.dir/build.make CMakeFiles/mini_db.dir/src/table/table_page.cpp.s
+.PHONY : src/table/table_page.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +282,24 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mini_db"
+	@echo "... src/buffer/buffer_pool_manager.o"
+	@echo "... src/buffer/buffer_pool_manager.i"
+	@echo "... src/buffer/buffer_pool_manager.s"
+	@echo "... src/buffer/lru_replacer.o"
+	@echo "... src/buffer/lru_replacer.i"
+	@echo "... src/buffer/lru_replacer.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/storage/disk_manager.o"
 	@echo "... src/storage/disk_manager.i"
 	@echo "... src/storage/disk_manager.s"
+	@echo "... src/table/table_heap.o"
+	@echo "... src/table/table_heap.i"
+	@echo "... src/table/table_heap.s"
+	@echo "... src/table/table_page.o"
+	@echo "... src/table/table_page.i"
+	@echo "... src/table/table_page.s"
 .PHONY : help
 
 

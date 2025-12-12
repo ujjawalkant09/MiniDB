@@ -1,18 +1,23 @@
 #include "storage/disk_manager.h"
-#include "common/config.h"
+#include "buffer/buffer_pool_manager.h"
+#include "table/table_heap.h"
 #include <iostream>
 
 int main() {
     DiskManager dm("test.db");
+    BufferPoolManager bpm(10, &dm);
+    TableHeap table(&bpm);
 
-    char page[PAGE_SIZE]{};
-    std::snprintf(page, PAGE_SIZE, "Hello, Mini DB");
+    RID rid1, rid2;
+    table.insert_tuple("Alice", 5, rid1);
+    table.insert_tuple("Bob", 3, rid2);
 
-    dm.write_page(0, page);
+    std::vector<std::string> rows;
+    table.scan_all(rows);
 
-    char read_page[PAGE_SIZE]{};
-    dm.read_page(0, read_page);
+    for (auto &r : rows) {
+        std::cout << r << std::endl;
+    }
 
-    std::cout << read_page << std::endl;
     return 0;
 }

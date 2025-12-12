@@ -19,6 +19,10 @@ add_compile_options(
 add_executable(mini_db
     src/main.cpp
     src/storage/disk_manager.cpp
+    src/buffer/lru_replacer.cpp
+    src/buffer/buffer_pool_manager.cpp
+    src/table/table_page.cpp
+    src/table/table_heap.cpp
 )
 
 target_include_directories(mini_db PRIVATE src)
